@@ -1,0 +1,32 @@
+#top_button {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #444444;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+#top_button.fade-out {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

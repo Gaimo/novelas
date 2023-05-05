@@ -14,7 +14,7 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 20px 0;
-    width: 250px;
+	width: 250px;
 }
 
 li {
@@ -23,7 +23,7 @@ li {
 	border: 1px solid #ddd;
 	margin-bottom: 5px;
 	cursor: pointer;
-    text-align: center;
+	text-align: center;
 }
 
 li:hover {
@@ -65,11 +65,12 @@ li:hover {
 }
 
 .center {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 #video-player {
 	width: 100%;
 	height: 100%;
 }
+

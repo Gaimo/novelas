@@ -1,0 +1,28 @@
+.novel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+
+    cursor: pointer;
+    
+}
+
+.novel__title_background {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 10px;
+    text-align: end;
+    color: white;
+}
+
+.novel__title {
+    font-size: 2rem;
+}
+
+.novel__year {
+    font-size: 1rem;
+}
